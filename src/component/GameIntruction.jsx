@@ -4,7 +4,7 @@ const GameInstructions = () => {
   return (
     <div
       data-testid="gameInstructions"
-      className="text-center mb-6 text-xl font-semibold text-gray-800"
+      className="text-center mb-6 text-xl font-bold text-gray-600"
     >
       <h2>Guess the correct color!</h2>
       <p>Select a color that matches the color displayed in the box.</p>

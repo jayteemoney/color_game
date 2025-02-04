@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 const ColorOption = ({ color, onClick }) => {
   return (
     <button
-      data-testid="colorOption"
-      className="w-24 h-24 rounded-full transition-transform transform hover:scale-110"
-      style={{ backgroundColor: color }}
-      onClick={() => onClick(color)}
-    />
-  );
+    data-testid="colorOption"
+    className="w-24 h-24 rounded-full animate-pulse transition-transform transform hover:scale-110 border-4 border-transparent hover:border-white "
+    style={{ backgroundColor: color }}
+    onClick={() => onClick(color)}
+  />
+);
 };
 
 ColorOption.propTypes = {
