@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ColorBox from "./component/ColorBox";
 import ColorOption from "./component/ColorOption";
-import Score from "./component/Score";
+import Score from './component/score';
 import GameInstructions from "./component/GameIntruction";
 
 const colors = ["#00CFFF", "#A7FF4A", "#E15827", "#74E0B3", "#825100", "#6C44E6"];
