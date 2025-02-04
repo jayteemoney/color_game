@@ -50,7 +50,7 @@ function App() {
         <h1 className="text-3xl font-bold mb-4 text-amber-50">COLOR GUESS GAME</h1>
         <GameInstructions />
         <ColorBox targetColor={targetColor} />
-        <div className="flex gap-4 mt-6 flex-wrap">
+        <div className="flex flex-wrap justify-center gap-4 mt-6 items-center">
           {colorOptions.map((color, index) => (
             <ColorOption key={index} color={color} onClick={handleGuess} />
           ))}
