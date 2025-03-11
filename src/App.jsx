@@ -45,7 +45,8 @@ function App() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen p-[20px] bg-[#02021b] font-serif">
+    <div
+     className="flex items-center justify-center min-h-screen p-[20px] bg-[#02021b] font-serif">
       <div className="border-2 shadow-[10px_10px_10px_rgba(38,34,71,0.9)] bg-[#010113] flex justify-center items-center min-h-screen flex-col w-[680px] rounded-[20px] py[40px]">
         <h1 className="text-3xl font-bold mb-4 text-amber-50">COLOR GUESS GAME</h1>
         <GameInstructions />

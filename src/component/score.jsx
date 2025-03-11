@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Score = ({ score }) => {
   return (
-    <div>
+    <div className='Score'>
       <h2 
       data-testid="score"
       className="text-xl font-bold text-amber-50">Score: {score}</h2>

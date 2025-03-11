@@ -4,7 +4,7 @@ const ColorBox = ({ targetColor }) => {
   return (
     <div
       data-testid="colorBox"
-      className="w-48 h-48 mb-6 rounded-[20px] border-2 border-blue-300 animate-pulse transition-transform transform hover:scale-110 "
+      className="w-40 h-40 mb-6 rounded-[20px] border-2 border-blue-300 animate-pulse transition-transform transform hover:scale-110 "
       style={{ backgroundColor: targetColor }}
     >
       
